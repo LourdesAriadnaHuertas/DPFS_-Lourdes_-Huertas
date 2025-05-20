@@ -13,3 +13,8 @@ app.use('/', indexRoutes)
 app.listen(port,()=> {
     console.log(`http://localhost:${port}`)
 })
+
+// const db= require('./database/models')
+// (()=>{
+//   db.sequelize.sync({force:true})
+// })()

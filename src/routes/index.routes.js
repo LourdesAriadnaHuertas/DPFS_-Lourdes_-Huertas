@@ -9,7 +9,7 @@ router.get('/addProduct', addProduct);
 //vista productDetail
 router.get('/productDetail/:id', productDetail);
 //vista productDetail
-router.get('/productDetail/:id', register);
+router.get('/register', register);
 
 
 
