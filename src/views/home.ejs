@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<%- include('./partials/head.ejs') %>
+  <%- include('./partials/head.ejs') %>
   <body>
-    <%- include('../partial/navbar.ejs'); %>
+    <%- include('./partials/navbar.ejs') %>
     <main>
       <section>aqui va el carrousel</section>
       <section class="Ejemplo">
@@ -34,32 +34,6 @@
         </h2>
       </section>
     </main>
-    <footer>
-      <div>
-        <H2>Queres realizar un pedido o consultar por nuestros cursos?</H2>
-        <h2>Contactanos!</h2>
-        <img src="/src/public/images/icon-gmail.png" alt="" />
-        <i class="fa-solid fa-envelope">Ejemplode@gmail.com</i>
-        <i class="fa-solid fa-location-dot">Algun lugar 123, Buenos Aires</i>
-      </div>
-
-      <div>
-        <p>Nuestras redes sociales</p>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-square-facebook"></i>
-        <i class="fa-brands fa-whatsapp"></i>
-        <i class="fa-brands fa-square-twitter"></i>
-      </div>
-
-      <div>
-        <input type="text" placeholder="Nombre" />
-        <input type="text" placeholder="Gmail" />
-      </div>
-
-      <div>
-        <input type="text" placeholder="Consulta o pedido" />
-      </div>
-      <button>Enviar</button>
-    </footer>
+    <footer><%- include('./partials/footer.ejs') %></footer>
   </body>
 </html>
