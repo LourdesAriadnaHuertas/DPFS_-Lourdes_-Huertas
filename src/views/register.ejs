@@ -1,19 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de registro</title>
-</head>
-<body>
+  <%- include('./partials/head.ejs') %>
+  <body>
     <div class="registro">
-        <h1>Regisrarse</h1>
-        <div class="f-registro-1">
-            <input type="text" placeholder="Correo electronico"> 
-            <input type="text" placeholder="Contraseña">
-            <input type="text" placeholder="Confirmar Contraseña">
-        </div>
-        <button>Enviar</button>
-    </div> 
-</body>
+      <h1>Regisrarse</h1>
+      <div class="f-registro-1">
+        <input type="text" placeholder="Correo electronico" />
+        <input type="text" placeholder="Contraseña" />
+        <input type="text" placeholder="Confirmar Contraseña" />
+      </div>
+      <button>Enviar</button>
+    </div>
+  </body>
+  <%- include('./partials/footer.ejs') %>
 </html>
